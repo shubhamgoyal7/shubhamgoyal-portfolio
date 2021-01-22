@@ -20,11 +20,19 @@ hr {
     margin:2rem 0rem;
 }
 
+.showcase-padding {
+    padding: 1rem;
+}
+
+.para-padding {
+    padding: 0rem 0rem 0.5rem 0rem;
+}
+
 /* container */
 .container {
     /* padding-left: 1rem;
     padding-right: 1rem;  */
-    padding: 0rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .container-center {
@@ -34,22 +42,22 @@ hr {
 
 /* links */
 .link {
-    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem; */
+    /*margin-bottom: 1rem; */
 }
 .link-primary {
     background-color: var(--primary-color);
     color: var(--light-gray) ;
     border-radius: 0.5rem;
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 /* look for BEM naming convention for CSS */
@@ -94,6 +102,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
